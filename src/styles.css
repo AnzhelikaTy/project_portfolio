@@ -6,12 +6,6 @@
 body {
   margin: 60px auto;
 }
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
 h1 {
   font-size: 96px;
 }
@@ -73,4 +67,15 @@ h3 {
   text-decoration: none;
   border-radius: 5px;
   padding: 20px 15px;
+}
+@media (max-width: 576px) {
+  .launch-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
 }
