@@ -66,3 +66,11 @@ h3 {
   color: var(--primary-color);
   font-size: 28px;
 }
+.launch-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
