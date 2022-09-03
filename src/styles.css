@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+  margin-top: 60px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navigation-links a {
+  text-transform: capitalize;
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  margin-top: 60px;
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-info p {
+  margin: 30px 0;
+}
+
+.email {
+  text-align: center;
+}
+.email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 28px;
+}
