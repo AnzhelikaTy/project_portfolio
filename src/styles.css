@@ -24,11 +24,10 @@ h3 {
 }
 
 .navigation-links a {
-  text-transform: capitalize;
   margin: 20px;
+  text-transform: capitalize;
   padding: 20px 15px;
   border-radius: 4px;
-  padding: 20px 15px;
   text-decoration: none;
 }
 .contact-link {
@@ -68,13 +67,20 @@ h3 {
   border-radius: 5px;
   padding: 20px 15px;
 }
+
 @media (max-width: 576px) {
   .launch-link {
     display: block;
     text-align: center;
     margin: 0 20px;
   }
-  h2,
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
   p {
     text-align: center;
   }
